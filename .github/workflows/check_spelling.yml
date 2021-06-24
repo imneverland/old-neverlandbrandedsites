@@ -7,6 +7,8 @@ on:
     - '**.txt'
     - '**.html'
     - '**.md'
+  push:
+    branches: [ master ]
 jobs:
   spelling:
     runs-on: ubuntu-latest
