@@ -2,20 +2,19 @@
 /* Changes these to change the colors of the panel!!! */
 
 :root {
-	--main-bg-color: url(https://cdn.discordapp.com/attachments/858514686394761228/858528997888884776/emily_is_retarted.png);
-	--secondary-bg-color: url(https://cdn.discordapp.com/attachments/858514686394761228/858528997888884776/emily_is_retarted.png);
-	--secondary-bg-color-alt: url(https://cdn.discordapp.com/attachments/858514686394761228/858528997888884776/emily_is_retarted.png);
-	--accent-color: #6861CE !important;
-	--accent-secondary-color: #6861CE !important;
-	--text-color: #fafafa !important;
+  --main-bg-color: #1a2035 !important;
+  --secondary-bg-color: #1f283e !important;
+  --secondary-bg-color-alt: #202940 !important;
+  --accent-color: #6861CE !important;
+  --accent-secondary-color: #6861CE !important;
+  --text-color: #fafafa !important;
 
   --border-radius: 15px !important;
 }
-
 /* Changes Background */
 
 body, .content-wrapper {
-	background-color: var(--main-bg-color) !important;
+	background-color: url(https://cdn.discordapp.com/attachments/858514686394761228/858528997888884776/emily_is_retarted.png) !important;
 }
 
 
