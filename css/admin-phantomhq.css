@@ -14,7 +14,7 @@
 /* Changes Background */
 
 body, .content-wrapper {
-	background-color: url(https://cdn.discordapp.com/attachments/858514686394761228/858528997888884776/emily_is_retarted.png) !important;
+	background-color: url(https://cdn.discordapp.com/attachments/858514686394761228/858528997888884776/emily_is_retarted.png);
 }
 
 
@@ -30,7 +30,7 @@ body, .content-wrapper {
 .skin-blue .main-header .navbar,
 .skin-blue .main-header .logo,
 .main-footer {
-	background-color: var(--secondary-bg-color) !important;
+	background-color: url(https://cdn.discordapp.com/attachments/858514686394761228/858528997888884776/emily_is_retarted.png);
 	border-color: transparent !important;
 	box-shadow: none !important;
 }
