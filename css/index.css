@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
-p.invis {font-size:22vw;color:black}
+p.invis {font-size:1vw;color:black}
 p {font-family:ubuntu;font-size:24px;color:white}
-iframe {border:none;height:70%;width:80%;}
+iframe {border:none;height:80%;width:50%;}
 body {background-color:black}
