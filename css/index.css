@@ -13,8 +13,19 @@
     100% {color: #ff0000}
 }
 p.invis {font-size:1vw;color:black}
-p {font-family:ubuntu;font-size:24px;color:white}
+p {font-family:ubuntu;font-size:18px;color:white}
+p.title {font-size:24px}
 p.rainbow {-webkit-animation: rainbow 5s linear infinite alternate;animation: rainbow 5s linear infinite alternative;font-size:24px}
-a.rainbow {-webkit-animation: rainbow 5s linear infinite alternate;animation: rainbow 5s linear infinite alternative;font-size:24px}
-iframe {border:none;height:80%;width:50%;}
-body {background-color:black}
+a {-webkit-animation: rainbow 5s linear infinite alternate;animation: rainbow 5s linear infinite alternative}
+iframe {border:none;height:77%;width:69%;}
+body {background-color:black;height:100%}
+b {-webkit-animation: rainbow 5s linear infinite alternate;animation: rainbow 5s linear infinite alternative}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: orange;
+    color: white;
+    text-align: center;
+ }
