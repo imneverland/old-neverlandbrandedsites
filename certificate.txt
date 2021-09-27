@@ -23,4 +23,6 @@ Issuer: C = PW E = marcopisco6608@gmail.com CN = Marco Pisco
 Valid since: ‎Thursday, ‎September ‎23, ‎2021 12:10:17 PM (GMT)
 Expires: ‎‎Wednesday, ‎September ‎23, ‎2026 12:10:17 PM
 
-GPG KEY: 642D2F0E0EE756A0
+GPG KEY: 
+COMPUTER: 642D2F0E0EE756A0
+WORKING COPY (PHONE): F620534C88F733C0
