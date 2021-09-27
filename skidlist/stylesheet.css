@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+iframe.menu {border:none;height:57px;width:700px;}
+p {font-family:ubuntu;font-size:18px;color:white}
+p.fold {font-family:ubuntu;font-size:28px;color:white}
+p.skid {font-family:ubuntu;font-size:24px;color:white}
+body {background-color:black}
+  
