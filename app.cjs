@@ -25,16 +25,19 @@ app.get("/resume", (req, res) => {
 })
 
 app.get("/websites", (req, res) => {
-  res.sendFile(__dirname + "/public/otherwebsites.html");
-  res.setHeader('Content-Type', 'text/html');
+  res.send(401)
+  // res.sendFile(__dirname + "/public/otherwebsites.html");
+  // res.setHeader('Content-Type', 'text/html');
 })
 
-// app.get("/resume-html", (req, res) => {
-//   res.sendFile(__dirname + "/public/resume.html");
-//   res.setHeader('Content-Type', 'text/html');
-// })
+app.get("/resume-html", (req, res) => {
+  res.send(401)
+  // res.sendFile(__dirname + "/public/resume.html");
+  // res.setHeader('Content-Type', 'text/html');
+})
 
-// app.get("/certificate", (req, res) => {
-//   res.sendFile(__dirname + "/public/certificate");
-//   res.setHeader('Content-Type', 'text/plain');
-// })
+app.get("/certificate", (req, res) => {
+  res.send(401)
+  // res.sendFile(__dirname + "/public/certificate");
+  // res.setHeader('Content-Type', 'text/plain');
+})
