@@ -44,3 +44,8 @@ app.get("/certificate", (req, res) => {
   // res.sendFile(__dirname + "/public/certificate");
   // res.setHeader('Content-Type', 'text/plain');
 })
+
+app.get("/arc-sw.js", (req, res) => {
+  res.sendFile(__dirname + "/public/arc-sw.js");
+  res.setHeader('Content-Type', 'application/javascript');
+})
