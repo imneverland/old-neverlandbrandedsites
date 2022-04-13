@@ -1,0 +1,12 @@
+[Unit]
+Description=NeverLand-Ninja
+After=network.target
+
+[Service]
+Type=simple
+User=root
+ExecStart=/usr/bin/node /opt/chocoflask/src/neverlandninja
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

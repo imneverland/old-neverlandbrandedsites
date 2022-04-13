@@ -1,0 +1,29 @@
+{
+  "DefaultFileUploader": "neverland.ninja",
+  "DefaultImageUploader": "neverland.ninja",
+  "DefaultUrlShortener": "neverland.ninja",
+  "XineramaHead": 0,
+  "NotificationTime": 10,
+  "NotifyUploading": true,
+  "NotifyCommand": "",
+  "ClipboardTime": 5,
+  "SaveFolder": ".local/share/sharenix",
+  "OrganizedFolders": false,
+
+  "Services": [
+    {
+      "Name": "neverland.ninja",
+      "RequestType": "POST",
+      "RequestURL": "https://neverland.ninja/api/v1/upload",
+      "Headers": {
+        "X-Chocoflask-Token": "P8nUqxkJtFLEWh5Yt68AxLnjP4fLWmfrgZPdRr3NGqEZWtGMP"
+      },
+      "Body": "MultipartFormData",
+      "FileFormName": "chocoflask",
+      "ResponseType": "Text",
+      "URL": "$json:response.url$",
+      "DeletionURL": "$json:response.delete_url$"
+    }
+  ]
+}
+

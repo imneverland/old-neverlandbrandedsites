@@ -1,0 +1,79 @@
+<html>
+<head>
+    <title>NeverLand</title>
+    <link rel="stylesheet" type="text/css" href="/assets/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link rel="icon" type="image/png" href="https://www.neverlandyt.wtf/assets/images/neverlandyt.png">
+    <meta property="og:title" content="NeverLand" />
+    <meta property="og:description" content="NeverLand's Website!" />
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://www.neverlandyt.wtf/assets/images/neverlandyt.png">
+</head>
+<body draggable="false">
+    <Content>
+        <Photo>
+            <img class="avatar" id="avatar" src="assets/images/neverlandyt.png">
+        </Photo>
+        <Header>
+            <h1 class="name centre text">Marco Pisco <i class="fab fa-spotify fa-sm spotify" id="spotify" title="Not listening to anything"></i></a></h1>
+	    <h2 class="text">AKA NeverLand</h2>
+            <h2 class="text occupation">System Administrator, HTML and CSS Developer</h2>
+            <h2 class="text" id="spam"></h2>
+        </Header>
+        <Icons>
+            <p>
+                <div class="icons-social">
+                    <i>
+                    <i>
+                    <i>
+                    <a href="https://github.com/ItsNeverLand" target="_blank"><i class="fab fa-github fa-2x icon-next" title="GitHub"></i></a>
+                    <a target="_blank" href="https://twitter.com/neverlandoff"><i class="fab fa-twitter fa-2x icon-next" title="Twitter"></i></a>
+                    <a target="_blank" href="https://www.youtube.com/channel/UC4d7OfLmw1Imgsyr_NbXr8w"><i class="fab fa-youtube fa-2x icon-next" title="YouTube"></i></a>
+                    <a target="_blank" href="https://dsc.bio/neverlandyt"><i class="fab fa-discord fa-2x icon-next" title="Discord"></i></a>
+                    <a target="_blank" href="/assets/Resume.pdf"><i class="fas fa-user-graduate fa-2x icon-next" title="Resume"></i></a>
+            </p>
+        </Icons>
+        <Information>
+          <i>
+          <h2 class="text" style="font-size:12px">This website is mostly outdated, because I don't want to update it. The resume is outdated, and the most recent one is avaiable at <a href="https://neverlandyt.com">neverlandyt.com</a></h2>
+        </Information>
+
+        <Info>
+            <a href="#"><i class="fas fa-info-circle fa-2x info" onClick="showInfo()"></i></a>
+        </Info>
+    </Content>
+    <script>
+        //async function setStatus() {
+        //    const status = await fetch("https://api.neverlandyt.wtf/internal/neverland/status").then(res => res.json());
+        //    const avatar = await fetch("https://api.neverlandyt.wtf/internal/neverland/avatar").then(res => res.json());
+        //    const avatarElem = document.getElementById("avatar");
+        //    avatarElem.src = avatar.response;
+        //    avatarElem.style.borderColor = status.response.general.colour;
+        //    avatarElem.style.borderStyle = "solid";
+        //};
+
+        function showInfo() {
+            alert("Written in pure Node.js-extended HTML (EJS) and CSS. Forked from ItzBunniYT/website on GitHub.")
+        };
+
+        //async function setSpotify() {
+        //    const spotify = await fetch("https://api.neverlandyt.wtf/internal/neverland/spotify").then(res => res.json());
+          //  if (spotify.response.listening == false) {
+          //      document.getElementById("spotify").style.visibility = "hidden";
+          //  } else {
+          //      document.getElementById("spotify").style.visibility = "visible";
+          //      document.getElementById("spotify").style.color = "#1DB954";
+          //      document.getElementById("spotify").title = `Listening to ${spotify.response.title} by ${spotify.response.artist}`;
+          //  };
+        //};
+
+        //setStatus();
+        //setSpotify();
+        //setInterval(setStatus, (60 * 30));
+        //setInterval(setSpotify, (60 * 30));
+    </script>
+    <script src="assets/random.js"></script>
+</body>
+
+</html>

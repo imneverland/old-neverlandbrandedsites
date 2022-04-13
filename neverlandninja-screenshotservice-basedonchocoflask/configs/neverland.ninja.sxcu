@@ -1,0 +1,14 @@
+{
+  "Version": "13.5.0",
+  "DestinationType": "ImageUploader, TextUploader, FileUploader",
+  "RequestMethod": "POST",
+  "RequestURL": "https://neverland.ninja/api/v1/upload",
+  "Headers": {
+    "X-Chocoflask-Token": "P8nUqxkJtFLEWh5Yt68AxLnjP4fLWmfrgZPdRr3NGqEZWtGMP"
+  },
+  "Body": "MultipartFormData",
+  "FileFormName": "chocoflask",
+  "URL": "$json:response.url$",
+  "DeletionURL": "$json:response.delete_url$",
+  "ErrorMessage": "$json:response$"
+}
